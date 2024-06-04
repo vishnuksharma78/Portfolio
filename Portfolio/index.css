@@ -1,0 +1,158 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    padding: 18px;
+    text-decoration: none;
+}
+
+.navbar {
+    z-index: 1;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    padding: 10px;
+    width: 100%;
+}
+
+nav ul li {
+    padding: 10px;
+    list-style: none;
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+}
+
+body{
+    background-color:#1C1A1A;
+ }
+
+ .info{
+    display: flex;
+    height: 580px;
+ }
+ 
+ .div1{
+    color: white;
+    display: flex;
+    position: relative;
+    width: 70%;
+    height: 40%;
+    top: 165px;
+ }
+ .div1 h1{
+    margin: 0 0 0 30px;
+    padding: 0 0 0 20px
+ }
+ .div1 h1 p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+ }
+ .div1 h1 button{
+    margin: 2px;
+    padding: 2px 7px 2px 7px;
+    border-radius: 8px;
+    color: #fd6161;
+    background-color: rgb(28 26 26 / 95%);
+    border: 1px solid #fd6161;
+ }
+
+ .div1 h1 button:hover{
+    background-color: #fd6161;
+    color: white;
+ }
+
+ .div2{
+    position: relative;
+    top: 160px;
+    right: 100px;
+ }
+
+ .name{
+    color: #fd6161;
+ }
+
+ .skill{
+    display: flex;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    height: 500px;
+ }
+ .skill ul li{
+    list-style: none;
+    padding: 8px;
+    margin: 8px;
+ }
+
+ .textskill{
+    font-size: 35px;
+    margin: 20px 0 0 10px;
+    padding: 10px;
+    width: 30%;
+ }
+
+ .slist{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+ }
+
+ .slist ul li:hover{
+    color: #fd6161;
+    scale: 1.5;
+    cursor: pointer;
+ }
+
+ #about{
+   display: flex;
+   color: white;
+   padding: 10px;
+   margin: 10px;
+   height: 450px;
+   width: 95%;
+   margin: auto;
+   font-size: 37px;
+ }
+
+ .about{
+   background-color:#1C1A1A;
+   display: flex;
+   align-self: center;
+   justify-content: center;
+   width: 86%;
+ }
+
+ #Contact{
+   display: flex;
+   color: white;
+   padding: 10px;
+   margin: 10px;
+   margin: auto;
+   font-size: 37px;
+ }
+ .Contact{
+   display: flex;
+   color: white;
+   padding: 10px;
+   margin: 10px;
+   margin: auto;
+   font-size: 37px;
+ }
+
+ .Contact a{
+   list-style: none;
+   color: white;
+ }
+
+ .Contact a:hover{
+   color: rgb(54, 54, 221);
+ }
